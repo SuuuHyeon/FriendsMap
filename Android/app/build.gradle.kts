@@ -59,11 +59,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 
-    // Google Map
-    implementation (libs.maps.compose)
-    implementation (libs.maps.compose.utils)
-    implementation (libs.maps.compose.widgets)
-    implementation(libs.play.services.maps)
+    implementation(libs.map.sdk)
+    implementation (libs.naver.map.compose)
+    implementation (libs.play.services.location)
+    implementation (libs.naver.map.location)
 }
 
 secrets {
